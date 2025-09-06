@@ -1,0 +1,13 @@
+# Core app
+streamlit>=1.33,<2
+plotly>=5.18
+pandas>=2.2
+numpy>=1.26
+
+# ONNX inference
+onnxruntime>=1.19
+onnx>=1.16
+
+# Images / Excel (used by Streamlit image display & optional xlsx I/O)
+Pillow>=10.0
+openpyxl>=3.1

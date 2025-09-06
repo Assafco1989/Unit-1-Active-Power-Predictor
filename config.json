@@ -1,0 +1,32 @@
+{
+  "hidden": [
+    128,
+    128,
+    64,
+    32,
+    16
+  ],
+  "dropout": 0.05,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 2048,
+  "epochs": 200,
+  "seed": 1337,
+  "train_path": "E:/R_D/U1 MW Prediction/Excel sheet/Data/1min_avg_csv_fast/Prediction model training files/1min_avg_combined.xlsx",
+  "val_path": "E:/R_D/U1 MW Prediction/Excel sheet/Data/1min_avg_csv_fast/Prediction model training files/22_1min_avg.xlsx",
+  "train_sheet": "AUTO_FIRST",
+  "val_sheet": "AUTO_FIRST",
+  "target": "U1 Active Power (MW)",
+  "min_target": 100.0,
+  "features": [
+    "AMBIENT TEMP.",
+    "HOTBOX PRESSURE (kPa)",
+    "HP STEAM PRESSURE (MPa)",
+    "HP STEAM TEMP. (C)",
+    "HRH PRESSURE (Mpa)",
+    "HRH TEMP. (C)",
+    "INTCPT CV 1 POS. (%)",
+    "MS CV 2 POS. (%)",
+    "Steam FLOW (t/h)"
+  ]
+}
